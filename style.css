@@ -5,3 +5,8 @@ body {
 div {
     border: 1px black;
 }
+
+.banner, .about, .talents, content {
+    height: 300px;
+    width: 100%;
+}
