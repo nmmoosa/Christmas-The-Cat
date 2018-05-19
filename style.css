@@ -1,12 +1,51 @@
 body {
     margin: 0;
+    background:#f2ac80
 }
 
 div {
-    border: 1px black;
+    border: 1px dotted black;
 }
 
-.banner, .about, .talents, content {
-    height: 300px;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%
+}
+
+.navigation {
+    width: 100px;
+    height: 10px;
+    display: flex;
+    justify-content: right flex-end;
+    padding: 10px;
+}
+
+.navigation-text {
+    color: royalblue;
+    font-size: 30px;
+}
+
+.banner, .about, .talents, .contact {
+    height: 500px;
     width: 100%;
+}
+
+.banner {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 370px;
+    font-family: 'Love Ya Like A Sister';
+    font-size: 50px;
+    color: white;
+    background-image: url('https://thumb.ibb.co/nfExMT/Christmas_Test.jpg');
+}
+
+.about-container, .talents-container, .contact-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
