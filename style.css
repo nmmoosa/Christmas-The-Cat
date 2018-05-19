@@ -1,33 +1,36 @@
 body {
     margin: 0;
-    background:#f2ac80
+    background:#f2ac80;
+    font-family: 'Love Ya Like A Sister';
 }
 
 div {
     border: 1px dotted black;
 }
 
-header {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%
 }
-
-.navigation {
-    width: 100px;
-    height: 10px;
-    display: flex;
-    justify-content: right flex-end;
-    padding: 10px;
+            
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 25px;
+    text-decoration: none;
 }
-
-.navigation-text {
-    color: royalblue;
-    font-size: 30px;
-}
+            
+li a:hover {
+    background-color:rgb(202, 113, 58);
+    } 
 
 .banner, .about, .talents, .contact {
     height: 500px;
@@ -38,7 +41,6 @@ header {
     text-align: center;
     vertical-align: middle;
     line-height: 370px;
-    font-family: 'Love Ya Like A Sister';
     font-size: 50px;
     color: white;
     background-image: url('https://thumb.ibb.co/nfExMT/Christmas_Test.jpg');
