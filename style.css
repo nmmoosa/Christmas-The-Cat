@@ -1,8 +1,7 @@
-div {
-    border: 1px;
-    color: black;
+body {
+    margin: 0;
 }
 
-.banner {
-    text-transform: uppercase;
+div {
+    border: 1px black;
 }
