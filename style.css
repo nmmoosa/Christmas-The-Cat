@@ -1,7 +1,7 @@
 body {
     margin: 0;
     background:#f2ac80;
-    font-family: 'Meera Inimai';
+    font-family: 'Coming Soon';
 }
 
 h1 {
@@ -44,6 +44,19 @@ li a:hover {
     width: 100%;
 }
 
+.talents {
+    background-color: white;
+}
+
+.sub-header {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 20px;
+    margin: auto;
+}
+
 .banner {
     text-align: center;
     vertical-align: middle;
@@ -58,26 +71,22 @@ li a:hover {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .half-width {
     display: flex;
     width: 50%;
-    padding: 20px;
+    padding: 10px;
+    font-size: 26px;
 }
 
 .third-width {
     display: flex;
-    width: 33%;
-    padding: 20px;
+    justify-content: center;
+    width: 33.3%;
+    padding: 10px;
+    font-size: 25px;
 }
 
-/*
-.about-container, .talents-container, .contact-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-*/
