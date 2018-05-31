@@ -1,8 +1,15 @@
 body {
     margin: 0;
     background:#f2ac80;
-    font-family: 'Amatic SC';
+    font-family: 'Meera Inimai';
 }
+
+h1 {
+    margin: 0;
+    font-family: 'Amatic SC';
+    font-size: 100px;
+}
+
 
 div {
     border: 1px dotted black;
@@ -33,7 +40,7 @@ li a:hover {
     } 
 
 .banner, .about, .talents, .contact {
-    height: 500px;
+    height: 750px;
     width: 100%;
 }
 
@@ -42,12 +49,35 @@ li a:hover {
     vertical-align: middle;
     line-height: 370px;
     font-size: 50px;
-    color: white;
-    background-image: url('https://thumb.ibb.co/nfExMT/Christmas_Test.jpg');
+    color: #f2ac80;
+    background-image: url('https://newevolutiondesigns.com/images/freebies/cat-wallpaper-48.jpg');
+    background-size: cover;
 }
 
+.full-width {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+
+.half-width {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+}
+
+.third-width {
+    display: flex;
+    width: 33%;
+    padding: 20px;
+}
+
+/*
 .about-container, .talents-container, .contact-container {
     display: flex;
     justify-content: space-around;
     padding: 20px;
 }
+*/
