@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
     $("#submit").click(function() {
-        event.preventDefault();
+
+        /*event.preventDefault();*/
 
         var formData = $("form").serializeArray();
         console.log(formData);
@@ -9,5 +10,5 @@ $(document).ready(function() {
         var nameInput = $("#name").val();
         console.log("Name Input: ", nameInput);
     })
-    
+
 })
