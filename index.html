@@ -26,29 +26,30 @@
 
     <section id="about">
         <div class="sub-header">
-        Who Goes There?
+        A C(H)AT ON LIFE
         </div>
         
         <div class="full-width">
        
             <div class="half-width">
-            Hello, paw pals! I'm a curious creature residing in sprawling Serangoon Gardens with my adoring but oblivious human, Pattrick. Since making Gardens my home six months ago, I've become somewhat of an expert on the area. 
+            A curious creature residing in sprawling Serangoon Gardens with my adoring but oblivious human, Pattrick. Since making Gardens my home six months ago, I've become somewhat of an expert on the area.
             </div>
 
             <div class="half-width">
             Every day is an adventure in Gardens, and I hope to share my experiences with anyone as curious as I. Hosting neighbouhood trails are my recent venture and I'm always happy to collaborate on new routes for even better times.
             </div>
+
         </div>
     </section>
 
     <section id="talents">
-        <div class="sub-header">Anything Impressive About You?</div>
+        <div class="sub-header">LET ME IMPRESS YOU</div>
+<!--
         <div class="full-width">
 
             <div class="third-width">
-                <p>Prowling</p>
-            </div>
-
+                <p>Prowling</p><br>
+        
             <div class="third-width">
                 <p>Growling</p>
             </div>
@@ -56,23 +57,99 @@
             <div class="third-width">
                 <p>Lounging</p>
             </div>
+        </div> -->
 
+        <div class="full-width">
+                <div class="third-width">
+                    <img id="talent-images" src="http://loyfly.com/wp-content/uploads/2013/02/tabby-cat-1024x768.jpg">
+                </div>
+    
+                <div class="third-width">
+                    <img id="talent-images" src="http://cdn.pedegru.com/Photos/5ec5739d-96fc-489f-a284-09b79563d359/p_media-original.png">
+                </div>
+    
+                <div class="third-width">
+                    <img id="talent-images" src="https://wooey.s3.amazonaws.com/wooey_files/cat-fetcher/9034ffe5-378c-495f-b477-9b66c6796f31/Sleeping-Tabby-cats.jpg">
+                </div>
         </div>
+
     </section>
 
     <footer id="contact">
+        <div class="sub-header">
+            PREPARED TO BE PAW PALS?
+        </div>
+
         <div class="full-width">
             
-            <div class="half-width">
-            Look at cute photos of me!
+            <div class="contact-image">
+                <img id="final-image" src="https://i.pinimg.com/originals/38/96/20/389620e03ca9907f5213a1557d8916d1.jpg" alt="Contact">
             </div>
 
-            <div class="half-width">
-            Would you like to be friends?
+            <div class="contact-box">
+
+                <form>
+                    <fieldset>
+                        <legend>Tell Me About Yourself</legend>
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Name" name="name">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email" name="email">
+                        </div>
+                    </fieldset>
+
+                    <br>
+        
+                    <fieldset>
+                        <legend>Areas of Interest</legend>
+                        <div>
+                            <label>In-Demand Spaces</label>
+                            <select name="spaces">
+                                <option value="gardens">Human Gardens</option>
+                                <option value="homes">Human Homes</option>
+                                <option value="bathrooms">Human Bathrooms</option>
+                            </select>
+                        </div>
+        
+                        <div>
+                            <label>Adventurer Competency</label>
+                            <br>
+                            <input type="radio" name="experience" value="novice"> Novice<br>
+                            <input type="radio" name="experience" value="apprentice"> Apprentice<br>
+                            <input type="radio" name="experience" value="master"> Master<br>
+                        </div>
+                    </fieldset>
+
+                    <br>
+
+                    <fieldset>
+                        <legend>Anything Else?</legend>
+
+                        <div>
+                            <label for="comments">Comments</label>
+                            <textarea name="comments" id="comments" rows="2" cols="105"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <br>
+
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+                
+                <script
+                  src="https://code.jquery.com/jquery-3.3.1.min.js"
+                  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                  crossorigin="anonymous"></script>
+                <script src="index.js"></script>
+
             </div>
 
         </div>
     </footer>
+
 
     </body>
 
