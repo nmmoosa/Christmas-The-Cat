@@ -25,7 +25,13 @@ ul {
     display: flex;
     justify-content: flex-end;
 }
-            
+
+.sidenav {
+    position: fixed;
+    background-color: #f2ac80;
+    width: 100%;
+}
+
 li a {
     display: block;
     color: white;
@@ -37,8 +43,7 @@ li a {
             
 li a:hover {
     background-color:rgb(202, 113, 58);
-    } 
-
+    }     
 
 .banner, .about, .talents, .contact {
     height: 750px;
